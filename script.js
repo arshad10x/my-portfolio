@@ -4,7 +4,7 @@ const headerHamMenuBtn = document.querySelector('.header-main-ham-menu')
 const headerHamMenuCloseBtn = document.querySelector(
   '.header-main-ham-menu-close'
 )
-const headerSmallMenuLinks = document.querySelectorAll('.header-sm-menu-link')
+// const headerSmallMenuLinks = document.querySelectorAll('.header-sm-menu-link')
 
 hamMenuBtn.addEventListener('click', () => {
   if (smallMenu.classList.contains('header-sm-menu--active')) {
