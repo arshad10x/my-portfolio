@@ -35,6 +35,7 @@ function Welcome(name) {
   };
   return greetingInfo;
 }
+
 var myFunction = Welcome("John");
 myFunction("Welcome "); //Output: Welcome John
 myFunction("Hello Mr."); //output: Hello Mr.John
